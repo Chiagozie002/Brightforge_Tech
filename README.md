@@ -61,9 +61,9 @@ portfolio/
 │   │   ├── projects.js       Public project demo data, rendering, filtering
 │   │   └── admin.js          All cpanel interactivity (see below)
 │   └── images/
-│       ├── logo-mark.svg            Icon-only mark (favicon, app-icon contexts)
-│       ├── logo-full-dark.svg       Icon + wordmark, for dark theme (white "Bright")
-│       ├── logo-full-light.svg      Icon + wordmark, for light theme (navy "Bright")
+│       ├── logo-mark.png            Icon-only mark (favicon)
+│       ├── logo-full-dark.png       Icon + wordmark, for dark theme (white "Bright")
+│       ├── logo-full-light.png      Icon + wordmark, for light theme (navy "Bright")
 │       ├── profile-hero.svg / profile-about.svg
 │       └── projects/project-01.svg … project-06.svg
 │
@@ -123,8 +123,8 @@ cpanel page):
 
 ## Where to replace things
 
-- **Logo:** `assets/images/logo-mark.svg` (icon only) and `logo-full-dark.svg` /
-  `logo-full-light.svg` (icon + wordmark — `theme.js` swaps between these two
+- **Logo:** `assets/images/logo-mark.png` (icon only) and `logo-full-dark.png` /
+  `logo-full-light.png` (icon + wordmark — `theme.js` swaps between these two
   automatically, so edit both if you replace the logo later)
 - **Profile photos:** `assets/images/profile-hero.svg`, `profile-about.svg`
   (public site) — the admin profile photo and dropdown avatar currently

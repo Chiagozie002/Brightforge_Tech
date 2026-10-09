@@ -48,9 +48,9 @@
     document.querySelectorAll(".bf-logo-img").forEach((img) => {
       const src = img.getAttribute("src") || "";
       if (theme === "light") {
-        img.setAttribute("src", src.replace("logo-full-dark.svg", "logo-full-light.svg"));
+        img.setAttribute("src", src.replace("logo-full-dark.png", "logo-full-light.png"));
       } else {
-        img.setAttribute("src", src.replace("logo-full-light.svg", "logo-full-dark.svg"));
+        img.setAttribute("src", src.replace("logo-full-light.png", "logo-full-dark.png"));
       }
     });
   }
